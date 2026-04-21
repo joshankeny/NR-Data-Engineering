@@ -15,8 +15,6 @@ resource::
 resource::
 ## ❓ Questions
 - [ ] 
-- [ ] 
 
 ## ⚠️ Risks
-- 
-- 
+- [ ] 

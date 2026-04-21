@@ -1,4 +1,3 @@
-# Week 1 - NR Architecture Mastery
 
 ## 🎯 Goals
 - Understand all 7 layers of your architecture
@@ -8,12 +7,9 @@
 ## 🧠 Key Concepts
 - Pipeline layers (intake → staging → dbt → marts → apps)
 - Lineage ID as system backbone
-- Separation of concerns
 
 ## 🛠 Hands-On
-- [ ] Trace 1 dataset from _QUEUE → mrt_
-- [ ] Identify staging + mart tables
-- [ ] Locate lineage_id
+- [x] Read [[DataProgram_TechnicalArchitecture_v1.pdf]]
 
 ## 📚 Resources
 
@@ -24,5 +20,12 @@ resource:: [(DRAFT) NR DataProgram_TechnicalArchitecture_v1.docx](https://cityof
 	
 
 ## ⚠️ Risks
-- [ ] Overcomplicated System - Users will not adopt it
-	- We can make the parts they interact with simple (i.e. _QUEUEs for uploads, marts for accessing data)
+- [x] Overcomplicated System - Users will not adopt it
+	- We can make the parts they interact with simple (i.e. _QUEUEs for uploads, marts for accessing data, tableau and streamlit)
+
+
+## NOTES
+
+![[Pasted image 20260421144532.png]]
+[[DataProgram_TechnicalArchitecture_v1.pdf#page=3|DataProgram_TechnicalArchitecture_v1, page 3]]
+

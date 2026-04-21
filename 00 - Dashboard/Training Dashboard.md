@@ -21,7 +21,17 @@ ___
 
 ## 📅 Current Week
 
-→ [[Week 1 - Architecture]]
+```dataviewjs
+const pages = dv.pages('"01 - Weekly Tracker"')
+  .where(p => /^Week \d+/.test(p.file.name))
+  .sort(p => Number(p.file.name.match(/^Week (\d+)/)?.[1] ?? 0), 'desc');
+
+if (pages.length) {
+  dv.paragraph(`→ ${pages[0].file.link}`);
+} else {
+  dv.paragraph("→ No weekly notes found");
+}
+```
 
 ---
 ## ❓ Open Questions
