@@ -15,7 +15,8 @@ The content is tailored specifically to the **Tacoma Power Natural Resources Dat
 ## Purpose  
   
 This vault is not just a collection of notes—it is a **working knowledge system** to:  
-  
+
+- Track training progress
 - Understand the NR data pipeline end-to-end  
 - Map concepts directly to our Snowflake + dbt architecture  
 - Track weekly progress and learning  
@@ -23,34 +24,7 @@ This vault is not just a collection of notes—it is a **working knowledge syste
 - Build long-term expertise to guide data engineering direction  
   
 ---  
-  
-## Architecture Alignment  
-  
-This training mirrors the NR data platform:  
-  
-1. **Ingestion Layer**  
-- SharePoint `_QUEUE`  
-- File assessment and lineage tracking  
-  
-2. **Snowflake Layer**  
-- `PWR_RAW` (staging)  
-- `PWR` (intermediate + marts)  
-  
-3. **dbt Transformation Layer**  
-- `stg_` (staging models)  
-- `int_` (intermediate models)  
-- `mrt_` (mart models)  
-- `reg_` (regulatory models)  
-- `wrb_` (write-back models)  
-- `seeds/` (reference data)  
-  
-4. **Consumption Layer**  
-- Streamlit in Snowflake  
-- Tableau dashboards  
-- Direct SQL access  
-  
----  
-  
+
 ## Vault Structure  
   
 ```plaintext  
