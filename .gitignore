@@ -1,0 +1,80 @@
+# ==========================
+# General
+# ==========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+python/.env
+.env
+*.env
+
+# ==========================
+# Snowflake
+# ==========================
+# Optional - ignore generated logs
+snowflake/*.log
+
+# ==========================
+# FME
+# ==========================
+# Backup files
+*.fmw~
+*.fmx~
+*.log
+*.cache
+
+# FME temporary folders
+fme/workbenches/*.log
+fme/workbenches/*.cache
+
+# ==========================
+# Tableau
+# ==========================
+# Tableau temp files
+*.twb~
+*.twbx~
+*.tde
+*.hyper
+*.temp
+
+# Tableau autosave
+*.autosave
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.swp
+
+# ==========================
+# OS / Windows
+# ==========================
+desktop.ini
+
+# ==========================
+# Large Extracts / Exports
+# ==========================
+visualizations/exports/*.hyper
+visualizations/exports/*.tde
