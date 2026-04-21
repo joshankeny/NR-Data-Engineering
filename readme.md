@@ -57,17 +57,8 @@ This training mirrors the NR data platform:
 📁 NR Data Engineering  
 │  
 ├── 00 - Dashboard # Main training dashboard  
-├── 01 - Weekly Tracker # Weekly learning logs  
-├── 02 - dbt Models # Notes aligned to dbt repo structure  
-│ ├── staging/  
-│ ├── intermediate/  
-│ ├── marts/  
-│ ├── regulatory/  
-│ ├── write_back/  
-│  
-├── 03 - Snowflake # Snowflake concepts and objects  
-├── 04 - Ingestion Pipeline # Intake + lineage + validation  
-├── 05 - Architecture Mapping # System-level understanding  
-├── 06 - Decisions & Strategy # Tradeoffs and design thinking  
-├── 07 - Resources # Michael Kahan + docs  
+├── 01 - Weekly Tracker # Weekly learning logs    
+├── 02 - Resources # Compiled Resources
+├── 03 - Drawings # Excalidraw drawings
+├── 98 - Learning Exercises # Templated Preconstructed Learning Excercises
 ├── 99 - Templates # Reusable note templates
