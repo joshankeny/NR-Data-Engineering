@@ -1,51 +1,73 @@
-# Project Name
 
-## 1. Overview
-
-**Project Name:**  
-**Owner:**  
-**Created:**  
-**Last Updated:**  
-
-### Purpose
-
-Brief 2–4 sentence description of what this project does and why it exists.
-
-Example:
-> This project supports [business function] by integrating Snowflake data models, Python automation scripts, FME ETL workflows, and Tableau dashboards to deliver reporting and operational insights.
-
----
-
-## 2. Business Context
-
-### Problem Statement
-
-Describe:
-- What problem is being solved?
-- Who requested it?
-- Why it matters?
-
-### Stakeholders
-
-- Business Owner:
-- Technical Owner:
-- Primary Users:
-- Supporting Teams:
-
----
-
-## 3. Architecture Overview
-
-### System Components
-
-| Layer | Technology | Purpose |
-|-------|------------|----------|
-| Data Storage | Snowflake | Data warehouse tables, views, procedures |
-| Processing | Python | Automation, API integrations, logic |
-| ETL | FME | Data ingestion and transformation |
-| Visualization | Tableau | Dashboards and reporting |
-
-### High-Level Flow
-
-Example:
-Source Systems → FME → Snowflake → Python Processing → Tableau Dashboards
+# NR Data Engineering Training Vault  
+  
+This repository is a structured Obsidian vault designed to support a 6-month training plan for mastering:  
+  
+- Snowflake  
+- dbt (data build tool)  
+- Modern Data Stack architecture  
+- Data engineering strategy and decision-making  
+  
+The content is tailored specifically to the **Tacoma Power Natural Resources Data Delivery architecture**, aligning learning directly with real-world systems and workflows.  
+  
+---  
+  
+## Purpose  
+  
+This vault is not just a collection of notes—it is a **working knowledge system** to:  
+  
+- Understand the NR data pipeline end-to-end  
+- Map concepts directly to our Snowflake + dbt architecture  
+- Track weekly progress and learning  
+- Capture strategic insights and architectural decisions  
+- Build long-term expertise to guide data engineering direction  
+  
+---  
+  
+## Architecture Alignment  
+  
+This training mirrors the NR data platform:  
+  
+1. **Ingestion Layer**  
+- SharePoint `_QUEUE`  
+- File assessment and lineage tracking  
+  
+2. **Snowflake Layer**  
+- `PWR_RAW` (staging)  
+- `PWR` (intermediate + marts)  
+  
+3. **dbt Transformation Layer**  
+- `stg_` (staging models)  
+- `int_` (intermediate models)  
+- `mrt_` (mart models)  
+- `reg_` (regulatory models)  
+- `wrb_` (write-back models)  
+- `seeds/` (reference data)  
+  
+4. **Consumption Layer**  
+- Streamlit in Snowflake  
+- Tableau dashboards  
+- Direct SQL access  
+  
+---  
+  
+## Vault Structure  
+  
+```plaintext  
+📁 NR Data Engineering  
+│  
+├── 00 - Dashboard # Main training dashboard  
+├── 01 - Weekly Tracker # Weekly learning logs  
+├── 02 - dbt Models # Notes aligned to dbt repo structure  
+│ ├── staging/  
+│ ├── intermediate/  
+│ ├── marts/  
+│ ├── regulatory/  
+│ ├── write_back/  
+│  
+├── 03 - Snowflake # Snowflake concepts and objects  
+├── 04 - Ingestion Pipeline # Intake + lineage + validation  
+├── 05 - Architecture Mapping # System-level understanding  
+├── 06 - Decisions & Strategy # Tradeoffs and design thinking  
+├── 07 - Resources # Michael Kahan + docs  
+├── 99 - Templates # Reusable note templates
