@@ -15,6 +15,7 @@
 resource:: [Data by Design - Michael Kahan](https://www.skool.com/moderndata/classroom/c0d4f299?md=d4a0718adcfb4249a9ef4451f31685f2)
 resource:: [The Missing Piece in Many Data Pipelines (Staging)](https://www.youtube.com/watch?v=z_TrtkJKXoA&t=28s)
 resource:: [dbt Project From Scratch with Claude Code](https://www.skool.com/moderndata/create-a-dbt-project-from-scratch-w-claude-code)
+resource:: [Jason dbt Repo](https://github.com/Tacoma-Public-Utilities/pwr_gnr_datadelivery_dbtsandbox)
 ### Wareho)
 ## ❓ Questions
 - [ ] 

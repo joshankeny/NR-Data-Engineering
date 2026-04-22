@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "329478899030a48f",
+        "id": "35f4d4ba02f0f6fe",
         "type": "tabs",
         "children": [
           {
-            "id": "43ef18079dd8d46b",
+            "id": "43b3f29ff95c8f2b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 - Weekly Tracker/Week 1 - NR Architecture Mastery.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Week 1 - NR Architecture Mastery"
             }
           }
         ]
@@ -191,13 +195,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43ef18079dd8d46b",
+  "active": "43b3f29ff95c8f2b",
   "lastOpenFiles": [
+    "00 - Dashboard/Training Dashboard.md",
     "02 - Resources/All Learning Resources.md",
     "01 - Weekly Tracker/Week 2 - dbt Fundamentals.md",
+    "01 - Weekly Tracker/Week 1 - NR Architecture Mastery.md",
+    "98 - Learning Excercises/Week - dbt ETL vs ELT.md",
+    "98 - Learning Excercises/Week - dbt Clustering.md",
+    "98 - Learning Excercises/Week 24 - Capstone.md",
     "youtube.com",
     "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf",
-    "00 - Dashboard/Training Dashboard.md",
     "Pasted image 20260421150316.png",
     "Pasted image 20260421150308.png",
     "Pasted image 20260421150304.png",
@@ -206,12 +214,9 @@
     "Pasted image 20260421150107.png",
     "Pasted image 20260421150057.png",
     "Pasted image 20260421150031.png",
-    "01 - Weekly Tracker/Week 1 - NR Architecture Mastery.md",
     "readme.md",
-    "98 - Learning Excercises/Week - dbt Clustering.md",
     "98 - Learning Excercises/Week - dbt Ingestion Pipeline.md",
     "98 - Learning Excercises/Week - dbt Incremental Models.md",
-    "98 - Learning Excercises/Week - dbt ETL vs ELT.md",
     "Pasted image 20260421144532.png",
     "02 - Resources/~$taProgram_TechnicalArchitecture_v1.docx",
     "02 - Resources/Drawing 2026-04-21 14.38.47.excalidraw.md",
@@ -234,7 +239,6 @@
     "98 - Learning Excercises/Week - Snowflake Warehouses and Cost.md",
     "98 - Learning Excercises/Week - Streamlit.md",
     "98 - Learning Excercises/Week - Tableau.md",
-    "98 - Learning Excercises/Week 24 - Capstone.md",
     "98 - Learning Excercises/Week - dbt Query Optimization.md",
     "98 - Learning Excercises/Week - dbt Lineage System.md",
     "98 - Learning Excercises"

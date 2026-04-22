@@ -1,14 +1,4 @@
-# 🧠 NR Data Engineering Training Dashboard
-
-## 📊 Progress Tracker
-- Month 1 (Snowflake + Architecture): 🟢⬜⬜⬜
-- Month 2 (dbt Core): ⬜⬜⬜⬜
-- Month 3 (Modeling): ⬜⬜⬜⬜
-- Month 4 (Ingestion): ⬜⬜⬜⬜
-- Month 5 (Performance): ⬜⬜⬜⬜
-- Month 6 (Apps + Strategy): ⬜⬜⬜⬜
-
----
+#  NR Data Engineering Training Dashboard
 
 ## 📅 Weekly Progress
 
@@ -39,7 +29,7 @@ if (pages.length) {
 ```dataview  
 TASK  
 FROM "01 - Weekly Tracker"  
-WHERE !completed AND contains(meta(section).subpath, "Questions")  
+WHERE !completed AND contains(meta(section).subpath, "Questions") AND text != ""
 SORT file.name ASC
 ```
 
@@ -49,6 +39,6 @@ SORT file.name ASC
 ```dataview  
 TASK  
 FROM "01 - Weekly Tracker"  
-WHERE !completed AND contains(meta(section).subpath, "Risks")  
+WHERE !completed AND contains(meta(section).subpath, "Risks") AND text != ""
 SORT file.name ASC
 ```
