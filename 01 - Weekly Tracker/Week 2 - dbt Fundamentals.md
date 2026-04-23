@@ -101,8 +101,6 @@ Dimension (The context around the thing)
 This is what gets shared out to users and reporting tools
 # Workflow
 
-
-
 Github for Version Control
 	Main will match what we have in snowflake
 	Could be automatically deployed or updated every day

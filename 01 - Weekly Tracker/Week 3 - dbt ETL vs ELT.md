@@ -3,12 +3,15 @@
 - Understand architectural strategy
 
 ## 🧠 Key Concepts
-- ELT vs ETL
-- dbt responsibilities
+1. **ETL** transforms data before loading — ideal for compliance-heavy, on-prem, or non-SQL use cases.
+2. **ELT** loads raw data first and transforms in the warehouse — the dominant pattern for modern cloud data stacks.
+3. **Preserve raw data** — it's your safety net for rebuilding transformations.
+4. **Most real-world platforms are hybrid** — use the right pattern for each data source.
+5. **The choice depends on your infrastructure** — cloud warehouse capabilities, compliance requirements, team skills, and data complexity all factor in.
 
 ## 🛠 Hands-On
-- [ ] Map current structure ETL vs proposed structure ELT
-	- [[03 - Drawings/Current ETL vs Proposed ELT.md#^IwwFB2Jf|ETL - ELT]]
+- [x] Map current structure ETL vs proposed structure ELT
+	- ![[Current ETL vs Proposed ELT]]
 
 ## 📚 Resources
 
@@ -57,3 +60,39 @@ By loading raw data into the warehouse first, ELT supports a more self-service d
 ## Data Privacy and Compliance Requirements
 
 ETL lets you mask, hash, or filter PII before it's loaded. Is this potentially important for Cultural Resource Data?
+
+## Potential ELT Pitfalls
+### 1. No Raw Layer Preservation
+
+Always keep an immutable raw layer. Never transform data in place. If a transformation is wrong, you need the original data to rebuild.
+
+```plaintext
+raw/          -- Immutable copy of source data
+staging/      -- Cleaned, typed, deduplicated
+intermediate/ -- Joined, enriched
+marts/        -- Business-level metrics and entities
+```
+
+### 2. Transforming During Ingestion
+
+If your ELT ingestion tool is doing heavy transformations before loading, you've accidentally built ETL. Keep the "L" clean — load raw data, transform later.
+
+### 3. Ignoring Costs
+
+Cloud warehouses charge for compute. Poorly written transformations or full table scans on massive raw tables can run up your bill. Use incremental models, partition pruning, and materialization strategies wisely.
+
+### 4. No Data Quality Checks
+
+Raw data will have issues. Build tests into your transformation layer:
+
+```sql
+-- dbt test: ensure no null order IDs
+-- tests/assert_order_id_not_null.sql
+SELECT order_id
+FROM {{ ref('stg_orders') }}
+WHERE order_id IS NULL
+```
+
+
+## Do we need a hybrid approach?
+

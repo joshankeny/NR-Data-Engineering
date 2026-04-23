@@ -17,12 +17,10 @@ resource:: [(DRAFT) NR DataProgram_TechnicalArchitecture_v1.docx](https://cityof
 ## ❓ Questions
 - [x] How are we handling APIs
 	- Added to the Architecture
-	
 
 ## ⚠️ Risks
 - [x] Overcomplicated System - Users will not adopt it
 	- We can make the parts they interact with simple (i.e. _QUEUEs for uploads, marts for accessing data, tableau and streamlit)
-
 
 ## NOTES
 
