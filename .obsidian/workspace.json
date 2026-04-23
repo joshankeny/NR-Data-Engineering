@@ -11,12 +11,14 @@
             "id": "fe1dffebee6132b1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf"
+                "file": "00 - Dashboard/Training Dashboard.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "DataProgram_TechnicalArchitecture_v1"
+              "icon": "lucide-file",
+              "title": "Training Dashboard"
             }
           }
         ]
@@ -193,41 +195,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe1dffebee6132b1",
+  "active": "103d7b5b5d0e6b3d",
   "lastOpenFiles": [
-    "02 - Resources/~$taProgram_TechnicalArchitecture_v1.docx",
-    "01 - Weekly Tracker/Week 2 - dbt Fundamentals.md",
+    "Untitled.base",
     "00 - Dashboard/Training Dashboard.md",
-    "01 - Weekly Tracker/Week 1 - NR Architecture.md",
     "02 - Resources/All Learning Resources.md",
+    "01 - Weekly Tracker/Week 3 - dbt ETL vs ELT.md",
+    "03 - Drawings/Current ETL vs Proposed ELT.md",
+    "01 - Weekly Tracker/Week 2 - dbt Fundamentals.md",
+    "97 - Attachments/Pasted Image 20260423093502_979.png",
+    "03 - Drawings/Placeholder.png",
+    "03 - Drawings/Current ETL vs Proposed ELT.png",
+    "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf",
+    "04 - Tools and Decisions/Ingestion/Tool Comparison.md",
+    "04 - Tools and Decisions/Ingestion",
+    "04 - Tools and Decisions",
+    "97 - Attachments/Pasted image 20260423073530.png",
+    "97 - Attachments/Pasted image 20260423073506.png",
+    "98 - Learning Excercises/Week - dbt Ingestion Pipeline.md",
+    "02 - Resources/~$taProgram_TechnicalArchitecture_v1.docx",
+    "98 - Learning Excercises/Week - dbt Intermediate Models.md",
+    "98 - Learning Excercises/Week - dbt Lineage System.md",
+    "01 - Weekly Tracker/Week 1 - NR Architecture.md",
     "97 - Attachments/Pasted image 20260421150031.png",
     "97 - Attachments",
     "98 - Learning Excercises/Week  - dbt Clustering.md",
-    "03 - Drawings/Placeholder.md",
-    "98 - Learning Excercises/Week - dbt ETL vs ELT.md",
     "98 - Learning Excercises/Week 24 - Capstone.md",
     "youtube.com",
-    "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf",
     "97 - Attachments/Pasted image 20260421150316.png",
     "97 - Attachments/Pasted image 20260421150308.png",
     "97 - Attachments/Pasted image 20260421150304.png",
     "97 - Attachments/Pasted image 20260421150123.png",
-    "97 - Attachments/Pasted image 20260421150115.png",
-    "97 - Attachments/Pasted image 20260421150107.png",
-    "97 - Attachments/Pasted image 20260421150057.png",
     "readme.md",
-    "98 - Learning Excercises/Week - dbt Ingestion Pipeline.md",
     "98 - Learning Excercises/Week - dbt Incremental Models.md",
-    "97 - Attachments/Pasted image 20260421144532.png",
     "02 - Resources/Drawing 2026-04-21 14.38.47.excalidraw.md",
-    "03 - Drawings/Placeholder.png",
     "03 - Drawings/Placeholder.restored.md",
     "02 - Resources/msoAB96.tmp",
     "02 - Resources/msoA914.tmp",
     "02 - Resources/mso2C.tmp",
-    "02 - Resources/~WRL0001.tmp",
-    "02 - Resources/~WRD0000.tmp",
-    "02 - Resources/DataProgram_TechnicalArchitecture_v1.docx",
     "98 - Learning Excercises/Week - dbt Testing and Data Quality.md",
     "98 - Learning Excercises/Week - dbt Validation and Errors.md",
     "98 - Learning Excercises/Week - gen Governance.md",
@@ -236,9 +241,6 @@
     "98 - Learning Excercises/Week - Snowflake Performance.md",
     "98 - Learning Excercises/Week - Snowflake RBAC and Governance.md",
     "98 - Learning Excercises/Week - Snowflake Warehouses and Cost.md",
-    "98 - Learning Excercises/Week - Streamlit.md",
-    "98 - Learning Excercises/Week - Tableau.md",
-    "98 - Learning Excercises/Week - dbt Query Optimization.md",
-    "98 - Learning Excercises/Week - dbt Lineage System.md"
+    "98 - Learning Excercises/Week - Streamlit.md"
   ]
 }
