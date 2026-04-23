@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "35f4d4ba02f0f6fe",
+        "id": "6fc5eb800da33ddf",
         "type": "tabs",
         "children": [
           {
-            "id": "43b3f29ff95c8f2b",
+            "id": "fe1dffebee6132b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "01 - Weekly Tracker/Week 1 - NR Architecture Mastery.md",
-                "mode": "source",
-                "source": false
+                "file": "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Week 1 - NR Architecture Mastery"
+              "icon": "lucide-file-text",
+              "title": "DataProgram_TechnicalArchitecture_v1"
             }
           }
         ]
@@ -195,32 +193,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43b3f29ff95c8f2b",
+  "active": "fe1dffebee6132b1",
   "lastOpenFiles": [
-    "00 - Dashboard/Training Dashboard.md",
-    "02 - Resources/All Learning Resources.md",
+    "02 - Resources/~$taProgram_TechnicalArchitecture_v1.docx",
     "01 - Weekly Tracker/Week 2 - dbt Fundamentals.md",
-    "01 - Weekly Tracker/Week 1 - NR Architecture Mastery.md",
+    "00 - Dashboard/Training Dashboard.md",
+    "01 - Weekly Tracker/Week 1 - NR Architecture.md",
+    "02 - Resources/All Learning Resources.md",
+    "97 - Attachments/Pasted image 20260421150031.png",
+    "97 - Attachments",
+    "98 - Learning Excercises/Week  - dbt Clustering.md",
+    "03 - Drawings/Placeholder.md",
     "98 - Learning Excercises/Week - dbt ETL vs ELT.md",
-    "98 - Learning Excercises/Week - dbt Clustering.md",
     "98 - Learning Excercises/Week 24 - Capstone.md",
     "youtube.com",
     "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf",
-    "Pasted image 20260421150316.png",
-    "Pasted image 20260421150308.png",
-    "Pasted image 20260421150304.png",
-    "Pasted image 20260421150123.png",
-    "Pasted image 20260421150115.png",
-    "Pasted image 20260421150107.png",
-    "Pasted image 20260421150057.png",
-    "Pasted image 20260421150031.png",
+    "97 - Attachments/Pasted image 20260421150316.png",
+    "97 - Attachments/Pasted image 20260421150308.png",
+    "97 - Attachments/Pasted image 20260421150304.png",
+    "97 - Attachments/Pasted image 20260421150123.png",
+    "97 - Attachments/Pasted image 20260421150115.png",
+    "97 - Attachments/Pasted image 20260421150107.png",
+    "97 - Attachments/Pasted image 20260421150057.png",
     "readme.md",
     "98 - Learning Excercises/Week - dbt Ingestion Pipeline.md",
     "98 - Learning Excercises/Week - dbt Incremental Models.md",
-    "Pasted image 20260421144532.png",
-    "02 - Resources/~$taProgram_TechnicalArchitecture_v1.docx",
+    "97 - Attachments/Pasted image 20260421144532.png",
     "02 - Resources/Drawing 2026-04-21 14.38.47.excalidraw.md",
-    "03 - Drawings/Placeholder.md",
     "03 - Drawings/Placeholder.png",
     "03 - Drawings/Placeholder.restored.md",
     "02 - Resources/msoAB96.tmp",
@@ -240,7 +239,6 @@
     "98 - Learning Excercises/Week - Streamlit.md",
     "98 - Learning Excercises/Week - Tableau.md",
     "98 - Learning Excercises/Week - dbt Query Optimization.md",
-    "98 - Learning Excercises/Week - dbt Lineage System.md",
-    "98 - Learning Excercises"
+    "98 - Learning Excercises/Week - dbt Lineage System.md"
   ]
 }

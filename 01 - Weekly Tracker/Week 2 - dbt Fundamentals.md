@@ -7,7 +7,7 @@
 - DAG dependencies
 
 ## 🛠 Hands-On
-- [ ] View dbt DAG
+- [x] Understand dbt DAG
 - [ ] Run dbt (if possible)
 
 ## 📚 Resources
@@ -16,7 +16,6 @@ resource:: [Data by Design - Michael Kahan](https://www.skool.com/moderndata/cla
 resource:: [The Missing Piece in Many Data Pipelines (Staging)](https://www.youtube.com/watch?v=z_TrtkJKXoA&t=28s)
 resource:: [dbt Project From Scratch with Claude Code](https://www.skool.com/moderndata/create-a-dbt-project-from-scratch-w-claude-code)
 resource:: [Jason dbt Repo](https://github.com/Tacoma-Public-Utilities/pwr_gnr_datadelivery_dbtsandbox)
-### Wareho)
 ## ❓ Questions
 - [ ] 
 
@@ -24,6 +23,8 @@ resource:: [Jason dbt Repo](https://github.com/Tacoma-Public-Utilities/pwr_gnr_d
 - [ ] 
 
 ## NOTES
+
+DAG - Directed Acyclic Graph
 
 # Introduction
 

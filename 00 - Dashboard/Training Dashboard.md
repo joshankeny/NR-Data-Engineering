@@ -3,9 +3,9 @@
 ## 📅 Weekly Progress
 
 ```dataview
-table file.name as "Week", file.mtime as "Last Updated"
+table file.mtime as "Last Updated"
 from "01 - Weekly Tracker"
-sort file.mtime desc
+sort file.mtime asc
 ```
 ___
 
