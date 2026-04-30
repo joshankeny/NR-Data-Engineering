@@ -4,50 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "6fc5eb800da33ddf",
+        "id": "707e21a1531b7838",
         "type": "tabs",
         "children": [
           {
-            "id": "fe1dffebee6132b1",
+            "id": "d3615962da8e8cff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Weekly Tracker/Week 1 - NR Architecture.md",
+                "file": "01 - Active Lessons/dbtLabs Course.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 1 - NR Architecture"
+              "title": "dbtLabs Course"
             }
           },
           {
-            "id": "0c54224cea49e4ec",
+            "id": "ed1681c6361eaf9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Weekly Tracker/Week 2 - dbt Fundamentals.md",
+                "file": "01 - Active Lessons/dbtLabs Course.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 2 - dbt Fundamentals"
-            }
-          },
-          {
-            "id": "729ecacb830502f2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DataProgram_TechnicalArchitecture_v1"
+              "title": "dbtLabs Course"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,52 +210,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe1dffebee6132b1",
+  "active": "ed1681c6361eaf9f",
   "lastOpenFiles": [
-    "01 - Weekly Tracker/Week 2 - dbt Fundamentals.md",
-    "01 - Weekly Tracker/Week 3 - dbt ETL vs ELT.md",
-    "03 - Drawings/Current ETL vs Proposed ELT.md",
-    "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf",
+    "97 - Attachments/Pasted image 20260429133640.png",
+    "97 - Attachments/Pasted image 20260429133538.png",
+    "97 - Attachments/Pasted image 20260429133414.png",
+    "00 - Dashboard/NR Data Engineering Training Dashboard.md",
+    "03 - Drawings/dbt basic understanding.md",
+    "03 - Drawings/dbt basic understanding.png",
+    "03 - Drawings/Drawing 2026-04-29 13.29.19.excalidraw.png",
+    "01 - Active Lessons/dbtLabs Course.md",
+    "98 - Potential Lessons/dbt Ingestion Pipeline.md",
+    "01 - Active Lessons/dbt Fundamentals.md",
+    "01 - Active Lessons/NR Architecture.md",
     "02 - Resources/All Learning Resources.md",
+    "98 - Potential Lessons/Snowflake Performance.md",
+    "98 - Potential Lessons/Tableau Marts.md",
+    "99 - Templates/Snowflake Object.md",
+    "99 - Templates/Ingestion Pipeline.md",
+    "99 - Templates/Decision Log.md",
+    "99 - Templates/dbt Model Template.md",
+    "99 - Templates/dbt Seed Template.md",
+    "99 - Templates/Architectural Mapping.md",
+    "99 - Templates/Select Remaining Item.md",
+    "98 - Potential Lessons/Streamlit Marts.md",
+    "98 - Potential Lessons/Snowflake Warehouses and Cost.md",
+    "98 - Potential Lessons/Snowflake RBAC and Governance.md",
+    "98 - Potential Lessons/Snowflake Fundamentals.md",
+    "98 - Potential Lessons/gen Scaling Decisions.md",
+    "98 - Potential Lessons/gen Governance.md",
+    "98 - Potential Lessons/dbt Validation and Errors.md",
+    "98 - Potential Lessons/dbt Testing and Data Quality.md",
+    "98 - Potential Lessons/dbt Staging Models.md",
+    "96 - Scripts/select_remaining_tasks.js",
+    "96 - Scripts",
+    "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf",
     "02 - Resources/~$taProgram_TechnicalArchitecture_v1.docx",
-    "01 - Weekly Tracker/Week 1 - NR Architecture.md",
-    "00 - Dashboard/Training Dashboard.md",
     "Untitled.base",
     "97 - Attachments/Pasted Image 20260423093502_979.png",
     "03 - Drawings/Placeholder.png",
     "03 - Drawings/Current ETL vs Proposed ELT.png",
-    "04 - Tools and Decisions/Ingestion/Tool Comparison.md",
     "04 - Tools and Decisions/Ingestion",
     "04 - Tools and Decisions",
     "97 - Attachments/Pasted image 20260423073530.png",
     "97 - Attachments/Pasted image 20260423073506.png",
-    "98 - Learning Excercises/Week - dbt Ingestion Pipeline.md",
-    "98 - Learning Excercises/Week - dbt Intermediate Models.md",
-    "98 - Learning Excercises/Week - dbt Lineage System.md",
     "97 - Attachments/Pasted image 20260421150031.png",
     "97 - Attachments",
-    "98 - Learning Excercises/Week  - dbt Clustering.md",
-    "98 - Learning Excercises/Week 24 - Capstone.md",
     "youtube.com",
-    "97 - Attachments/Pasted image 20260421150316.png",
-    "97 - Attachments/Pasted image 20260421150308.png",
-    "97 - Attachments/Pasted image 20260421150304.png",
-    "97 - Attachments/Pasted image 20260421150123.png",
-    "readme.md",
-    "98 - Learning Excercises/Week - dbt Incremental Models.md",
-    "02 - Resources/Drawing 2026-04-21 14.38.47.excalidraw.md",
-    "03 - Drawings/Placeholder.restored.md",
-    "02 - Resources/msoAB96.tmp",
-    "02 - Resources/msoA914.tmp",
-    "02 - Resources/mso2C.tmp",
-    "98 - Learning Excercises/Week - dbt Testing and Data Quality.md",
-    "98 - Learning Excercises/Week - dbt Validation and Errors.md",
-    "98 - Learning Excercises/Week - gen Governance.md",
-    "98 - Learning Excercises/Week - gen Scaling Decisions.md",
-    "98 - Learning Excercises/Week - Snowflake Fundamentals.md",
-    "98 - Learning Excercises/Week - Snowflake Performance.md",
-    "98 - Learning Excercises/Week - Snowflake RBAC and Governance.md",
-    "98 - Learning Excercises/Week - Snowflake Warehouses and Cost.md",
-    "98 - Learning Excercises/Week - Streamlit.md"
+    "02 - Resources/msoAB96.tmp"
   ]
 }
