@@ -20,3 +20,10 @@ SORT file.name ASC
 | dbtLabs dbt Fundamentals                           | https://learn.getdbt.com/learn/course/dbt-fundamentals                                  |
 
 ---
+
+# Software
+
+
+| Name                            | Link                                        |
+| ------------------------------- | ------------------------------------------- |
+| Snowflake 120 Day Trial Account | https://signup.snowflake.com/?trial=student |
