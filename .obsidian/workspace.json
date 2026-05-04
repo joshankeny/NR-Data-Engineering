@@ -4,51 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "707e21a1531b7838",
+        "id": "e881fab14978a3bf",
         "type": "tabs",
         "children": [
           {
-            "id": "d3615962da8e8cff",
+            "id": "2ddb791938f6f375",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Active Lessons/dbtLabs Course.md",
+                "file": "01 - Active Lessons/dbtLabs Fundamentals for VSCode Course 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dbtLabs Course"
-            }
-          },
-          {
-            "id": "aa7dc6000a2828fb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Drawing 2026-04-30 10.41.19.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-30 10.41.19.excalidraw"
-            }
-          },
-          {
-            "id": "1076116733409a7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Active Lessons/dbtLabs Course.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "dbtLabs Course"
+              "title": "dbtLabs Fundamentals for VSCode Course 1"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,17 +196,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "103d7b5b5d0e6b3d",
+  "active": "2ddb791938f6f375",
   "lastOpenFiles": [
+    "01 - Active Lessons/dbtLabs Fundamentals for dbtStudio Course.md",
+    "01 - Active Lessons/dbtLabs Fundamentals for VSCode Course 1.md",
+    "01 - Active Lessons/NR Architecture.md",
+    "01 - Active Lessons/dbt Fundamentals.md",
+    "00 - Dashboard/NR Data Engineering Training Dashboard.md",
+    "00 - Dashboard/Notes.md",
+    "03 - Drawings/Drawing 2026-04-30 10.41.19.excalidraw.md",
+    "02 - Resources/All Learning Resources.md",
+    "97 - Attachments/Pasted image 20260501133731.png",
+    "97 - Attachments/Pasted image 20260501115341.png",
+    "02 - Resources/Training and Certification Opportunities.md",
+    "01 - Active Lessons/dbt ETL vs ELT.md",
+    "98 - Potential Lessons/Tableau Marts.md",
+    "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf",
     "97 - Attachments/Pasted image 20260430140414.png",
     "97 - Attachments/Pasted image 20260430140111.png",
-    "00 - Dashboard/NR Data Engineering Training Dashboard.md",
-    "02 - Resources/All Learning Resources.md",
     "03 - Drawings/Current ETL vs Proposed ELT.md",
-    "Drawing 2026-04-30 10.41.19.excalidraw.md",
-    "Drawing 2026-04-30 10.41.19.excalidraw.png",
-    "01 - Active Lessons/dbt ETL vs ELT.md",
-    "01 - Active Lessons/dbtLabs Course.md",
+    "03 - Drawings/Drawing 2026-04-30 10.41.19.excalidraw.png",
     "97 - Attachments/Pasted image 20260430093321.png",
     "97 - Attachments/Pasted image 20260430092213.png",
     "98 - Potential Lessons/gen Scaling Decisions.md",
@@ -240,13 +223,8 @@
     "97 - Attachments/Pasted image 20260429133538.png",
     "97 - Attachments/Pasted image 20260429133414.png",
     "03 - Drawings/dbt basic understanding.md",
-    "03 - Drawings/dbt basic understanding.png",
-    "03 - Drawings/Drawing 2026-04-29 13.29.19.excalidraw.png",
     "98 - Potential Lessons/dbt Ingestion Pipeline.md",
-    "01 - Active Lessons/dbt Fundamentals.md",
-    "01 - Active Lessons/NR Architecture.md",
     "98 - Potential Lessons/Snowflake Performance.md",
-    "98 - Potential Lessons/Tableau Marts.md",
     "99 - Templates/Snowflake Object.md",
     "99 - Templates/Ingestion Pipeline.md",
     "99 - Templates/Decision Log.md",
@@ -257,14 +235,10 @@
     "98 - Potential Lessons/Streamlit Marts.md",
     "98 - Potential Lessons/Snowflake Warehouses and Cost.md",
     "98 - Potential Lessons/Snowflake RBAC and Governance.md",
-    "98 - Potential Lessons/Snowflake Fundamentals.md",
-    "98 - Potential Lessons/gen Governance.md",
     "96 - Scripts/select_remaining_tasks.js",
     "96 - Scripts",
-    "02 - Resources/DataProgram_TechnicalArchitecture_v1.pdf",
     "02 - Resources/~$taProgram_TechnicalArchitecture_v1.docx",
     "Untitled.base",
-    "97 - Attachments/Pasted Image 20260423093502_979.png",
     "04 - Tools and Decisions/Ingestion",
     "04 - Tools and Decisions",
     "97 - Attachments",
